@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { MaterialDatepickerComponent } from './material-datepicker.component';
 
@@ -6,7 +6,7 @@ describe('MaterialDatepickerComponent', () => {
   let component: MaterialDatepickerComponent;
   let fixture: ComponentFixture<MaterialDatepickerComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ MaterialDatepickerComponent ]
     })
