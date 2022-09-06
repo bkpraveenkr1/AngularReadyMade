@@ -7,12 +7,13 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ngcc"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^13.3.11",
-    "@angular/cdk": "^12.2.13",
+    "@angular/cdk": "^13.3.9",
     "@angular/common": "^13.3.11",
     "@angular/compiler": "~13.3.11",
     "@angular/core": "^13.3.11",
@@ -22,6 +23,7 @@
     "@angular/platform-browser": "~13.3.11",
     "@angular/platform-browser-dynamic": "~13.3.11",
     "@angular/router": "~13.3.11",
+    "@danielmoncada/angular-datetime-picker": "^14.1.1",
     "@fortawesome/angular-fontawesome": "^0.6.0",
     "@fortawesome/fontawesome-common-types": "^0.2.28",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
